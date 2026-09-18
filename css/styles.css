@@ -131,6 +131,7 @@ section{padding-block:clamp(52px,7vw,82px)}
 /* -------------------------------------------------------------- speaker -- */
 .speaker{display:grid;grid-template-columns:230px minmax(0,1fr);gap:clamp(24px,4vw,48px);align-items:center}
 .portrait{
+  position:relative;                 /* ← добавили */
   aspect-ratio:1/1.14;max-width:100%;
   border-radius:115px 115px 14px 14px;
   background:linear-gradient(170deg,var(--mist) 0%,#e2e7f0 100%);
@@ -138,7 +139,17 @@ section{padding-block:clamp(52px,7vw,82px)}
   display:flex;align-items:center;justify-content:center;text-align:center;
   color:var(--steel);font-size:12.5px;line-height:1.5;padding:20px;overflow:hidden;
 }
-.portrait img{width:100%;height:100%;object-fit:cover}
+
+/* Фото заполняет всю рамку, минуя padding, и обрезается по арке.
+   object-position смещает кадр вверх, чтобы лицо не уезжало к центру. */
+.portrait img{
+  position:absolute;inset:0;
+  width:100%;height:100%;
+  object-fit:cover;
+  object-position:var(--photo-x,50%) var(--photo-y,22%);
+  scale:var(--photo-zoom,1);
+  display:block;
+}
 
 .speaker-name{font-size:clamp(30px,4.6vw,44px);font-weight:800;color:var(--navy);letter-spacing:-.02em;font-family:var(--display)}
 .speaker-role{font-size:17px;color:var(--slate);margin-top:8px}

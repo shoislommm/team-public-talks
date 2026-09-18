@@ -1,0 +1,249 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>TEAM Public Talks — Программа вечера</title>
+<meta name="description" content="TEAM Public Talks — публичные встречи TEAM University. Зафар Хашимов, основатель Korzinka. 28 сентября, 18:00, кампус TEAM University.">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="TEAM Public Talks — Программа вечера">
+<meta property="og:description" content="Зафар Хашимов, основатель Korzinka. «Экономика, бизнес и будущее нашего общества». 28 сентября, 18:00.">
+<meta property="og:image" content="assets/og-cover.jpg">
+
+<link rel="icon" href="assets/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap header-row">
+    <a class="brand" href="https://teamuni.uz" target="_blank" rel="noopener">
+      <span>
+        <span class="brand-mark">TEAM</span>
+        <span class="brand-sub">UNIVERSITY</span>
+      </span>
+    </a>
+    <nav class="nav" aria-label="Sections">
+      <a href="#speaker"  data-i18n="nav.speaker">Спикер</a>
+      <a href="#program"  data-i18n="nav.program">Программа</a>
+      <a href="#details"  data-i18n="nav.details">Детали</a>
+      <a href="#register" data-i18n="nav.register">Регистрация</a>
+      <a href="#contact"  data-i18n="nav.contact">Контакты</a>
+    </nav>
+    <div class="langs" id="langSwitcher" role="group" aria-label="Language">
+      <button type="button" data-lang="ru" aria-pressed="true">RU</button>
+      <button type="button" data-lang="uz" aria-pressed="false">UZ</button>
+      <button type="button" data-lang="en" aria-pressed="false">EN</button>
+    </div>
+  </div>
+</header>
+
+<div class="hero">
+  <div class="hero-arcs" aria-hidden="true">
+    <svg viewBox="0 0 800 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="400" cy="400" r="330" stroke="#ca2e0a" stroke-width="13"/>
+      <circle cx="400" cy="400" r="392" stroke="#5a6ba3" stroke-width="2.5"/>
+    </svg>
+  </div>
+  <div class="wrap hero-inner">
+    <div class="hero-grid">
+      <div>
+        <div class="eyebrow" data-i18n="hero.eyebrow">TEAM Public Talks · Публичные встречи TEAM University</div>
+        <h1 data-i18n="hero.title">Программа вечера</h1>
+        <p class="hero-lede" data-i18n="hero.lede">Новый формат живых встреч с людьми большого опыта. Один вечер, один гость, один честный разговор — и время, чтобы задать свой вопрос.</p>
+        <div class="cta-row">
+          <a class="btn btn-primary" href="#register" data-i18n="hero.ctaPrimary">Зарегистрироваться</a>
+          <a class="btn btn-ghost"   href="#program"  data-i18n="hero.ctaSecondary">Смотреть программу</a>
+        </div>
+        <div class="pills">
+          <span class="pill" data-i18n="hero.pill1">Вход по регистрации</span>
+          <span class="pill" data-i18n="hero.pill2">Кампус TEAM University</span>
+          <span class="pill" data-i18n="hero.pill3">Язык встречи — русский</span>
+        </div>
+      </div>
+      <div class="datecard">
+        <div class="d" data-i18n="hero.date">28 СЕН · 18:00</div>
+        <div class="t" data-i18n="hero.dateSub">28 сентября 2026</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<section id="speaker">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="sec-eyebrow" data-i18n="speaker.eyebrow">Гость вечера</div>
+      <h2 data-i18n="speaker.heading">Кто выступает</h2>
+    </div>
+    <div class="speaker">
+      <div class="portrait">
+        <!-- Замените плейсхолдер на фото: <img src="assets/speaker.jpg" alt="Зафар Хашимов"> -->
+        <span data-i18n="speaker.photo">Фото гостя</span>
+      </div>
+      <div>
+        <div class="speaker-name" data-i18n="speaker.name">Зафар Хашимов</div>
+        <div class="speaker-role" data-i18n="speaker.role">Основатель Korzinka</div>
+        <div class="speaker-topic">
+          <div class="lbl" data-i18n="speaker.topicLabel">Тема лекции</div>
+          <h3 data-i18n="speaker.topic">Экономика, бизнес и будущее нашего общества</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="program" class="sec-alt">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="sec-eyebrow" data-i18n="program.eyebrow">Программа · Dastur</div>
+      <h2 data-i18n="program.heading">Как пройдёт вечер</h2>
+      <p data-i18n="program.lede">Шесть блоков, от сбора гостей до неформального общения. Ниже — время начала каждого блока и его длительность.</p>
+    </div>
+    <div class="agenda" id="agenda"></div>
+  </div>
+</section>
+
+<section id="details">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="sec-eyebrow" data-i18n="details.eyebrow">Практическая информация</div>
+      <h2 data-i18n="details.heading">Что нужно знать перед приходом</h2>
+    </div>
+    <div class="cards">
+      <div class="card">
+        <div class="lbl" data-i18n="details.dateLbl">Дата и время</div>
+        <div class="val" data-i18n="details.dateVal">28 сентября, 17:30</div>
+        <div class="sub" data-i18n="details.dateSub">Сбор гостей с 17:30, начало в 18:00</div>
+      </div>
+      <div class="card">
+        <div class="lbl" data-i18n="details.placeLbl">Место</div>
+        <div class="val" data-i18n="details.placeVal">Кампус TEAM University</div>
+        <div class="sub"><a id="mapLink" href="#" target="_blank" rel="noopener" data-i18n="details.placeSub">Ташкент, ул. Темур Малик, 146</a></div>
+      </div>
+      <div class="card">
+        <div class="lbl" data-i18n="details.entryLbl">Вход</div>
+        <div class="val" data-i18n="details.entryVal">По регистрации</div>
+        <div class="sub" data-i18n="details.entrySub">Количество мест ограничено, подтверждение придёт на email</div>
+      </div>
+      <div class="card">
+        <div class="lbl" data-i18n="details.langLbl">Язык</div>
+        <div class="val" data-i18n="details.langVal">Русский</div>
+        <div class="sub" data-i18n="details.langSub">Вопросы из зала — на русском или узбекском</div>
+      </div>
+    </div>
+    <div class="cta-row">
+      <a class="btn btn-primary" id="calendarLink" href="#" target="_blank" rel="noopener" data-i18n="details.calendar">Добавить в календарь</a>
+    </div>
+  </div>
+</section>
+
+<section id="register" class="register">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="sec-eyebrow" data-i18n="form.eyebrow">Регистрация</div>
+      <h2 data-i18n="form.heading">Займите место в зале</h2>
+      <p data-i18n="form.lede">Заполните форму — мы подтвердим регистрацию и пришлём детали входа.</p>
+    </div>
+
+    <form id="registrationForm" novalidate>
+      <div class="form-grid">
+        <div class="field">
+          <label for="f-fullname" data-i18n="form.fullName">Имя и фамилия</label>
+          <input id="f-fullname" name="fullName" type="text" autocomplete="name" required>
+        </div>
+        <div class="field">
+          <label for="f-phone" data-i18n="form.phone">Телефон</label>
+          <input id="f-phone" name="phone" type="tel" autocomplete="tel" placeholder="+998 __ ___ __ __" required>
+        </div>
+        <div class="field">
+          <label for="f-email" data-i18n="form.email">Email</label>
+          <input id="f-email" name="email" type="email" autocomplete="email" required>
+        </div>
+        <div class="field">
+          <label for="f-organization" data-i18n="form.organization">Компания или место учёбы</label>
+          <input id="f-organization" name="organization" type="text" autocomplete="organization">
+        </div>
+        <div class="field full">
+          <label for="f-attendeetype" data-i18n="form.attendeeType">Кто вы</label>
+          <select id="f-attendeetype" name="attendeeType">
+            <option value="student"      data-i18n="form.attendee.student">Студент</option>
+            <option value="entrepreneur" data-i18n="form.attendee.entrepreneur">Предприниматель</option>
+            <option value="professional" data-i18n="form.attendee.professional">Специалист / руководитель</option>
+            <option value="other"        data-i18n="form.attendee.other">Другое</option>
+          </select>
+        </div>
+        <div class="field full">
+          <label for="f-question" data-i18n="form.question">Вопрос спикеру (необязательно)</label>
+          <textarea id="f-question" name="question"></textarea>
+        </div>
+      </div>
+
+      <div class="form-foot">
+        <button class="btn btn-primary" type="submit" id="submitButton" data-i18n="form.submit">Отправить заявку</button>
+        <span class="form-note" data-i18n="form.note">Данные используются только для регистрации на встречу.</span>
+      </div>
+
+      <div class="form-msg" id="formMessage" role="status" aria-live="polite"></div>
+    </form>
+  </div>
+</section>
+
+<section id="contact" class="sec-alt">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="sec-eyebrow" data-i18n="contact.eyebrow">Связаться с нами</div>
+      <h2 data-i18n="contact.heading">Остались вопросы?</h2>
+      <p data-i18n="contact.lede">Приёмная комиссия TEAM University ответит по любому из каналов ниже.</p>
+    </div>
+    <div class="cards">
+      <div class="card">
+        <div class="lbl" data-i18n="contact.phoneLbl">Телефон</div>
+        <div class="val"><a href="tel:+998781130828">+998 78 113 08 28</a></div>
+      </div>
+      <div class="card">
+        <div class="lbl" data-i18n="contact.tgLbl">Telegram</div>
+        <div class="val"><a href="https://t.me/teamuni_uz" target="_blank" rel="noopener">@teamuni_uz</a></div>
+      </div>
+      <div class="card">
+        <div class="lbl" data-i18n="contact.mailLbl">Email</div>
+        <div class="val"><a href="mailto:admission@teamuni.uz">admission@teamuni.uz</a></div>
+      </div>
+      <div class="card">
+        <div class="lbl" data-i18n="contact.addrLbl">Адрес</div>
+        <div class="val" data-i18n="contact.addrVal">Ташкент, ул. Темур Малик, 146</div>
+        <div class="sub">100050</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="foot-row">
+      <div>
+        <span class="brand-mark">TEAM</span>
+        <span class="brand-sub">UNIVERSITY</span>
+        <p class="foot-tagline" data-i18n="footer.tagline">TEAM Public Talks · Публичные встречи</p>
+      </div>
+      <div class="socials">
+        <a href="https://t.me/TEAMuniversityuz" target="_blank" rel="noopener">Telegram</a>
+        <a href="https://www.instagram.com/teamuni_uz/" target="_blank" rel="noopener">Instagram</a>
+        <a href="https://www.facebook.com/teamuni.uz/" target="_blank" rel="noopener">Facebook</a>
+        <a href="https://youtube.com/@teamuniversityuzbekistan" target="_blank" rel="noopener">YouTube</a>
+        <a href="https://teamuni.uz" target="_blank" rel="noopener">teamuni.uz</a>
+      </div>
+    </div>
+    <div class="copy" data-i18n="footer.copy">© 2026 TEAM University. Все права защищены.</div>
+  </div>
+</footer>
+
+<script src="js/config.js"></script>
+<script src="js/i18n.js"></script>
+<script src="js/bitrix.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

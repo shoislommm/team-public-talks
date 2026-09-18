@@ -1,0 +1,131 @@
+{
+  "meta": {
+    "htmlLang": "uz",
+    "title": "TEAM Public Talks — Kecha dasturi"
+  },
+  "nav": {
+    "speaker": "Ma'ruzachi",
+    "program": "Dastur",
+    "details": "Tafsilotlar",
+    "register": "Ro'yxatdan o'tish",
+    "contact": "Aloqa"
+  },
+  "hero": {
+    "eyebrow": "TEAM Public Talks · TEAM University ochiq uchrashuvlari",
+    "title": "Kecha dasturi",
+    "lede": "Katta tajribaga ega insonlar bilan jonli uchrashuvlarning yangi formati. Bir kecha, bir mehmon, bir samimiy suhbat — va savolingizni berishga vaqt.",
+    "ctaPrimary": "Ro'yxatdan o'tish",
+    "ctaSecondary": "Dasturni ko'rish",
+    "pill1": "Kirish ro'yxat asosida",
+    "pill2": "TEAM University kampusi",
+    "pill3": "Uchrashuv tili — rus tili",
+    "date": "28-SEN · 18:00",
+    "dateSub": "2026-yil 28-sentyabr"
+  },
+  "speaker": {
+    "eyebrow": "Kecha mehmoni",
+    "heading": "Kim so'zga chiqadi",
+    "photo": "Mehmon fotosi",
+    "name": "Zafar Xashimov",
+    "role": "Korzinka asoschisi",
+    "topicLabel": "Ma'ruza mavzusi",
+    "topic": "Iqtisodiyot, biznes va jamiyatimiz kelajagi"
+  },
+  "program": {
+    "eyebrow": "Dastur · Программа",
+    "heading": "Kecha qanday o'tadi",
+    "lede": "Mehmonlarni kutib olishdan norasmiy muloqotgacha — olti bosqich. Quyida har bir bosqichning boshlanish vaqti va davomiyligi.",
+    "minutes": "daq"
+  },
+  "agenda": {
+    "registration": {
+      "title": "Ro'yxatdan o'tish va mehmonlarni kutib olish",
+      "note": "Tanishuv va salomlashuv kofesi"
+    },
+    "opening": {
+      "title": "Kechaning ochilishi",
+      "note": "TEAM Public Talks formati haqida"
+    },
+    "lecture": {
+      "title": "Ma'ruza — Zafar Xashimov",
+      "note": "Korzinka asoschisi"
+    },
+    "coffee": {
+      "title": "Kofe-brek",
+      "note": "Tanaffus va muloqot"
+    },
+    "qa": {
+      "title": "Zaldan savol-javob",
+      "note": "Ochiq mikrofon"
+    },
+    "networking": {
+      "title": "Netvorking",
+      "note": "Mehmonlar bilan norasmiy muloqot"
+    }
+  },
+  "details": {
+    "eyebrow": "Amaliy ma'lumot",
+    "heading": "Kelishdan oldin bilish kerak bo'lgan narsalar",
+    "dateLbl": "Sana va vaqt",
+    "dateVal": "28-sentyabr, 17:30",
+    "dateSub": "Mehmonlar 17:30 dan, boshlanishi 18:00",
+    "placeLbl": "Manzil",
+    "placeVal": "TEAM University kampusi",
+    "placeSub": "Toshkent, Temur Malik ko'chasi, 146",
+    "entryLbl": "Kirish",
+    "entryVal": "Ro'yxat asosida",
+    "entrySub": "Joylar soni cheklangan, tasdiq email orqali keladi",
+    "langLbl": "Til",
+    "langVal": "Rus tili",
+    "langSub": "Zaldan savollar — rus yoki o'zbek tilida",
+    "calendar": "Kalendarga qo'shish"
+  },
+  "calendar": {
+    "title": "TEAM Public Talks — Zafar Xashimov",
+    "details": "TEAM University ochiq uchrashuvi. Ma'ruza: «Iqtisodiyot, biznes va jamiyatimiz kelajagi».",
+    "location": "TEAM University kampusi, Temur Malik ko'chasi 146, Toshkent"
+  },
+  "form": {
+    "eyebrow": "Ro'yxatdan o'tish",
+    "heading": "Zaldan joy oling",
+    "lede": "Shaklni to'ldiring — biz ro'yxatni tasdiqlaymiz va kirish tafsilotlarini yuboramiz.",
+    "fullName": "Ism va familiya",
+    "phone": "Telefon",
+    "email": "Email",
+    "organization": "Kompaniya yoki o'quv joyi",
+    "attendeeType": "Siz kimsiz",
+    "attendee": {
+      "student": "Talaba",
+      "entrepreneur": "Tadbirkor",
+      "professional": "Mutaxassis / rahbar",
+      "other": "Boshqa"
+    },
+    "question": "Ma'ruzachiga savol (ixtiyoriy)",
+    "submit": "Arizani yuborish",
+    "note": "Ma'lumotlar faqat uchrashuvga ro'yxatdan o'tkazish uchun ishlatiladi.",
+    "errors": {
+      "required": "Ism, telefon va email to'ldiring.",
+      "email": "Email manzilni tekshiring.",
+      "phone": "Telefon raqamini tekshiring."
+    },
+    "messages": {
+      "sending": "Yuborilmoqda…",
+      "success": "Rahmat! Ariza qabul qilindi — biz siz bilan bog'lanib, ro'yxatni tasdiqlaymiz.",
+      "demo": "Shakl to'g'ri to'ldirildi. Bitrix24 vebhuki hali ulanmagan — ariza yuborilmadi."
+    }
+  },
+  "contact": {
+    "eyebrow": "Biz bilan bog'laning",
+    "heading": "Savollaringiz bormi?",
+    "lede": "TEAM University qabul komissiyasi quyidagi kanallarning istalganida javob beradi.",
+    "phoneLbl": "Telefon",
+    "tgLbl": "Telegram",
+    "mailLbl": "Email",
+    "addrLbl": "Manzil",
+    "addrVal": "Toshkent, Temur Malik ko'chasi, 146"
+  },
+  "footer": {
+    "tagline": "TEAM Public Talks · Ochiq uchrashuvlar",
+    "copy": "© 2026 TEAM University. Barcha huquqlar himoyalangan."
+  }
+}

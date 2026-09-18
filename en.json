@@ -1,0 +1,131 @@
+{
+  "meta": {
+    "htmlLang": "en",
+    "title": "TEAM Public Talks — Programme of the Evening"
+  },
+  "nav": {
+    "speaker": "Speaker",
+    "program": "Programme",
+    "details": "Details",
+    "register": "Register",
+    "contact": "Contact"
+  },
+  "hero": {
+    "eyebrow": "TEAM Public Talks · Public meetings at TEAM University",
+    "title": "Programme of the evening",
+    "lede": "A new format of live meetings with people of deep experience. One evening, one guest, one honest conversation — and time to ask your own question.",
+    "ctaPrimary": "Register now",
+    "ctaSecondary": "See the programme",
+    "pill1": "Entry by registration",
+    "pill2": "TEAM University campus",
+    "pill3": "Held in Russian",
+    "date": "28 SEP · 18:00",
+    "dateSub": "28 September 2026"
+  },
+  "speaker": {
+    "eyebrow": "Guest of the evening",
+    "heading": "Who is speaking",
+    "photo": "Guest photo",
+    "name": "Zafar Khashimov",
+    "role": "Founder of Korzinka",
+    "topicLabel": "Lecture topic",
+    "topic": "Economy, business and the future of our society"
+  },
+  "program": {
+    "eyebrow": "Programme · Dastur",
+    "heading": "How the evening runs",
+    "lede": "Six blocks, from welcoming guests to informal conversation. Below is the start time and length of each block.",
+    "minutes": "min"
+  },
+  "agenda": {
+    "registration": {
+      "title": "Registration and welcome",
+      "note": "Meeting other guests, welcome coffee"
+    },
+    "opening": {
+      "title": "Opening of the evening",
+      "note": "About the TEAM Public Talks format"
+    },
+    "lecture": {
+      "title": "Lecture — Zafar Khashimov",
+      "note": "Founder of Korzinka"
+    },
+    "coffee": {
+      "title": "Coffee break",
+      "note": "A pause and conversation"
+    },
+    "qa": {
+      "title": "Questions from the floor",
+      "note": "Open microphone"
+    },
+    "networking": {
+      "title": "Networking",
+      "note": "Informal conversation with the guests"
+    }
+  },
+  "details": {
+    "eyebrow": "Practical information",
+    "heading": "What to know before you come",
+    "dateLbl": "Date and time",
+    "dateVal": "28 September, 17:30",
+    "dateSub": "Doors from 17:30, start at 18:00",
+    "placeLbl": "Venue",
+    "placeVal": "TEAM University campus",
+    "placeSub": "Tashkent, Temur Malik street 146",
+    "entryLbl": "Entry",
+    "entryVal": "By registration",
+    "entrySub": "Seats are limited; confirmation arrives by email",
+    "langLbl": "Language",
+    "langVal": "Russian",
+    "langSub": "Questions from the floor in Russian or Uzbek",
+    "calendar": "Add to calendar"
+  },
+  "calendar": {
+    "title": "TEAM Public Talks — Zafar Khashimov",
+    "details": "A public meeting at TEAM University. Lecture: “Economy, business and the future of our society”.",
+    "location": "TEAM University campus, Temur Malik street 146, Tashkent"
+  },
+  "form": {
+    "eyebrow": "Registration",
+    "heading": "Take your seat in the hall",
+    "lede": "Fill in the form — we will confirm your place and send the entry details.",
+    "fullName": "Full name",
+    "phone": "Phone",
+    "email": "Email",
+    "organization": "Company or place of study",
+    "attendeeType": "About you",
+    "attendee": {
+      "student": "Student",
+      "entrepreneur": "Entrepreneur",
+      "professional": "Professional / manager",
+      "other": "Other"
+    },
+    "question": "Question for the speaker (optional)",
+    "submit": "Send registration",
+    "note": "Your details are used only to register you for this meeting.",
+    "errors": {
+      "required": "Please fill in your name, phone and email.",
+      "email": "Please check your email address.",
+      "phone": "Please check your phone number."
+    },
+    "messages": {
+      "sending": "Sending…",
+      "success": "Thank you! Your registration was received — we will contact you to confirm it.",
+      "demo": "The form is filled in correctly. The Bitrix24 webhook is not connected yet, so nothing was sent."
+    }
+  },
+  "contact": {
+    "eyebrow": "Get in touch",
+    "heading": "Any questions left?",
+    "lede": "The TEAM University Admissions Office will answer on any of the channels below.",
+    "phoneLbl": "Phone",
+    "tgLbl": "Telegram",
+    "mailLbl": "Email",
+    "addrLbl": "Address",
+    "addrVal": "Tashkent, Temur Malik street 146"
+  },
+  "footer": {
+    "tagline": "TEAM Public Talks · Public meetings",
+    "copy": "© 2026 TEAM University. All rights reserved."
+  }
+}

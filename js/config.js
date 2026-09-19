@@ -9,6 +9,8 @@
   var SUPPORTED_LANGUAGES = ["uz", "ru", "en"];
   var DEFAULT_LANGUAGE = "uz";
   var LANGUAGE_STORAGE_KEY = "tpt-lang";
+  var DETECT_BROWSER_LANGUAGE = false; /* true — при первом заходе на страницу язык берётся из браузера,
+                                         false — язык по умолчанию DEFAULT_LANGUAGE */
 
   /* ------------------------------------------------------------- Bitrix24 */
 
@@ -66,6 +68,7 @@
     SUPPORTED_LANGUAGES: SUPPORTED_LANGUAGES,
     DEFAULT_LANGUAGE: DEFAULT_LANGUAGE,
     LANGUAGE_STORAGE_KEY: LANGUAGE_STORAGE_KEY,
+    DETECT_BROWSER_LANGUAGE: DETECT_BROWSER_LANGUAGE,
 
     BITRIX24_WEBHOOK_URL: BITRIX24_WEBHOOK_URL,
     BITRIX_SOURCE_ID: BITRIX_SOURCE_ID,

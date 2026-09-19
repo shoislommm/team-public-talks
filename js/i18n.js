@@ -23,7 +23,11 @@
       }
       node = node[parts[i]];
     }
-    return typeof node === "string" ? node : (fallback !== undefined ? fallback : "");
+    return typeof node === "string"
+      ? node
+      : fallback !== undefined
+        ? fallback
+        : "";
   }
 
   function loadDictionary(language) {
@@ -61,19 +65,23 @@
       }
     });
 
-    document.querySelectorAll("[data-i18n-placeholder]").forEach(function (element) {
-      var value = translate(element.getAttribute("data-i18n-placeholder"));
-      if (value) {
-        element.setAttribute("placeholder", value);
-      }
-    });
+    document
+      .querySelectorAll("[data-i18n-placeholder]")
+      .forEach(function (element) {
+        var value = translate(element.getAttribute("data-i18n-placeholder"));
+        if (value) {
+          element.setAttribute("placeholder", value);
+        }
+      });
 
-    document.querySelectorAll("[data-i18n-aria-label]").forEach(function (element) {
-      var value = translate(element.getAttribute("data-i18n-aria-label"));
-      if (value) {
-        element.setAttribute("aria-label", value);
-      }
-    });
+    document
+      .querySelectorAll("[data-i18n-aria-label]")
+      .forEach(function (element) {
+        var value = translate(element.getAttribute("data-i18n-aria-label"));
+        if (value) {
+          element.setAttribute("aria-label", value);
+        }
+      });
 
     document.documentElement.lang = translate("meta.htmlLang", currentLanguage);
 
@@ -107,7 +115,11 @@
       })
       .catch(function (error) {
         if (window.console && console.error) {
-          console.error("[team-public-talks] Не удалось загрузить словарь:", language, error);
+          console.error(
+            "[team-public-talks] Не удалось загрузить словарь:",
+            language,
+            error,
+          );
         }
       });
   }
@@ -124,19 +136,27 @@
       return saved;
     }
 
-    var browser = (navigator.language || "").slice(0, 2).toLowerCase();
-    if (config.SUPPORTED_LANGUAGES.indexOf(browser) !== -1) {
-      return browser;
+    if (config.DETECT_BROWSER_LANGUAGE) {
+      var browser = (navigator.language || "").slice(0, 2).toLowerCase();
+      if (config.SUPPORTED_LANGUAGES.indexOf(browser) !== -1) {
+        return browser;
+      }
     }
+
     return config.DEFAULT_LANGUAGE;
   }
-
   window.I18n = {
     t: translate,
     setLanguage: setLanguage,
     detectLanguage: detectLanguage,
-    getLanguage: function () { return currentLanguage; },
-    getDictionary: function () { return currentDictionary; },
-    onChange: function (listener) { listeners.push(listener); }
+    getLanguage: function () {
+      return currentLanguage;
+    },
+    getDictionary: function () {
+      return currentDictionary;
+    },
+    onChange: function (listener) {
+      listeners.push(listener);
+    },
   };
 })(window, document);

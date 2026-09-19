@@ -7,7 +7,7 @@
 
   /* ------------------------------------------------------------------ i18n */
   var SUPPORTED_LANGUAGES = ["ru", "uz", "en"];
-  var DEFAULT_LANGUAGE = "ru";
+  var DEFAULT_LANGUAGE = "en";
   var LANGUAGE_STORAGE_KEY = "tpt-lang";
 
   /* ------------------------------------------------------------- Bitrix24 */

@@ -6,8 +6,8 @@
   "use strict";
 
   /* ------------------------------------------------------------------ i18n */
-  var SUPPORTED_LANGUAGES = ["ru", "uz", "en"];
-  var DEFAULT_LANGUAGE = "en";
+  var SUPPORTED_LANGUAGES = ["uz", "ru", "en"];
+  var DEFAULT_LANGUAGE = "uz";
   var LANGUAGE_STORAGE_KEY = "tpt-lang";
 
   /* ------------------------------------------------------------- Bitrix24 */
